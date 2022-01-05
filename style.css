@@ -1,0 +1,209 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0%;
+}
+
+header {
+    background-color: #ffffff;
+    height: 64px;
+    width: 100%;
+    /* position: .5rem 3.75rem; */
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    /* border: 1px solid red; */
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0px 0px 0px 24px;
+    border: 1px solid blue;
+
+}
+
+/* .test{
+    float: right;
+} */
+
+.header-right{
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction:row;
+    padding-right: 24px;
+}
+
+/* li{
+    text-align: left;
+    border: 1px solid rgb(0, 4, 255);
+    left: auto!important;
+} */
+.ulRight{
+    text-align: right;
+    width: 95%;
+    border: 1px solid yellow;
+    
+}
+
+nav li {
+    text-decoration: none;
+    align-items: center;
+    display: inline-block;
+    margin-left: 8px;
+    text-align: right;
+    border: 1px solid green;
+    
+}
+
+/* .logo {
+    border: 1px solid green;
+} */
+
+.bold {
+    font-weight: bold;
+    font-size: 25px;
+    /* border: 1px solid green; */
+}
+
+.light {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+/* Cover */
+
+.cover{
+    /* position: relative; */
+    /* height: 500px; */
+    width: 100%;
+    display: flex;
+    /* border: 1px solid green; */
+    background-color: rgb(209, 209, 209);
+    
+}
+
+.cover .leftPic{
+    display: flex;
+    /* height: 436px; */
+    overflow: hidden;
+    width: 60%;
+    padding: 32px 24px;
+    border: 1px solid yellow;
+}
+
+/* .cover .rightDescription {
+    width: 600px;
+    padding-left: 24px;
+    text-align: center;
+    border: 1px solid yellow;
+} */
+
+.cover .rightDescription button{
+    /* width: 600px; */
+    /* padding-left: 24px; */
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+
+.cover .rightDescription h1 {
+    width: 300px;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: start;
+    padding-top: 100px;
+    /* border: 1px solid green; */
+    color: rgb(80, 80, 80);
+    
+}
+
+.cover h2 {
+    width: 400px;
+    text-align: start;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: rgb(80, 80, 80);
+    /* border: 1px solid green; */
+    
+}
+
+.cover button {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    /* border: 5px solid green; */
+    background-color: rgb(80, 80, 80);
+    
+}
+
+/* Second */
+#second{
+    /* position: relative; */
+    /* height: 650px; */
+    width: 100%;
+    display: flex;
+    /* border: 5px solid rgb(255, 220, 20); */
+    background-color: rgb(255, 255, 255);
+}
+#leftPic {
+    display: flex;
+    overflow: hidden;
+    width: 60%;
+    padding: 32px 24px;
+    /* height: 530px; */
+    /* max-width: 100%; */
+    /* border: 1px solid red; */
+    
+}
+
+#leftDescription{
+    padding: 0px 24px;
+    /* border: 1px solid blue; */
+}
+
+#leftDescription h2{
+    font-weight:bold;
+}
+
+
+
+/* second right */
+.second .right {
+    width: 40%;
+    border: 2px solid green;
+    
+}
+
+#rightPic{
+    /* margin: 0; */
+    width: 100%;
+    border: 2px solid red;
+    
+}
+
+#rightDescription1{
+    /* text-align: center; */
+    display: inline-block;
+    width: 65%;
+    /* top: 20%; */
+    border: 1px solid green;
+    
+}
+
+#pic1 {
+    /* flex-grow: 1; */
+    /* border-right: 10px; */
+    display: inline-block;
+    overflow: cover;
+    width: 35%;
+    padding: 32px 24px;
+    border: 1px solid red;
+
+}

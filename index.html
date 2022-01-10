@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Colmar Academy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" media="only screen and (color)" href="styles.css"> -->
+    <!-- <link rel="stylesheet" media="screen and (min-width: 400px) and (max-width: 700px)" href="style.css"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -14,74 +16,272 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <div class="header-left">
-        <img class="logo" src="ic-logo.svg" alt="logo"><span class="bold">COLMAR</span> <span class="light">ACADEMY</span>
+    <header class="row">
+        <div id="mobile" class="col">
+            <img class="mobileLogo" src="image/ic-logo.svg">
+        </div>
+        <div id="mobile" class="col">
+            <img class="mobileLogo" src="image/ic-on-campus.svg">
+        </div>
+        <div id="mobile" class="col">
+            <img class="mobileLogo" src="image/ic-online.svg">
+        </div>
+        <div id="mobile" class="col">
+            <img class="mobileLogo" src="image/ic-login.svg">
+        </div>
+        
+
+    <div id="header-left" class="col-xl-7">
+        <img class="logo" src="image/ic-logo.svg" alt="logo"><span class="bold">COLMAR</span> <span class="light">ACADEMY</span>
     </div>
-        <nav class="header-right">
-            <ul class="ulRight">
+        <nav id="header-right" class="col-xl-5">
                 <li>On campus</li>
                 <li>Online</li>
                 <li>For companies</li>
                 <li>Sign in</li>
-            </ul>
         </nav>
 
 </header>
-    <!-- Cover -->
-    <div class="cover">
-        <div class="leftPic">
+    <!-- First -->
+    <div id="first" class="row">
+        <div id="leftPic" class="col-7">
             <img src="./image/banner.jpg" alt="group" style="width: 100%; object-fit: cover;">
         </div>
-        <div class="rightDescription">
-            <h1>Learn something new everyday</h1>
-            <h2>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
+        <div id="rightDescription" class="col-5">
+            <h1 style="font-weight: bold;">Learn something <br>new everyday</h1>
+            <h5 style="font-weight: 500;">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h5>
             <a><button type="button" name="button">Start here</button></a>
         </div>
     </div>
 
+    <!-- Second mobile -->
+
+    <div id="mobilePic" >
+        <img src="./image/information-orientation-mobile.jpg" alt="shadow" style="width: 100%; object-fit: cover;" >
+    </div>
+    <div id="mobileText" class="row">
+        <h3>Orientation date</h3>
+        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+        <a href="#location" >Read more</a>
+    </div>
+
+    <div id="mobilePic" >
+        <img src="./image/information-campus-mobile.jpg" alt="shadow" style="width: 100%; object-fit: cover;" >
+    </div>
+    <div id="mobileText" class="row">
+        <h3>Our campus</h3>
+        <p>Find which campus is close by you</p>
+        <a href="#location" >Read more</a>
+    </div>
+
+    <div id="mobilePic" >
+        <img src="./image/information-guest-lecture-mobile.jpg" alt="shadow" style="width: 100%; object-fit: cover;" >
+    </div>
+    <div id="mobileText" class="row">
+        <h3>Special guest lecture</h3>
+        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+        <a href="#location" >Read more</a>
+    </div>
+
     <!-- Second -->
     <div id="second" class="row">
-        <div id="left" class="col-xl-6" style="width: 60%;">
-            <div id="leftPic" class="row-xl-6" style="width: 100%;">
+        <div id="left" class="col-lg-7">
+            <div id="leftPic">
                 <img src="./image/information-main.jpg" alt="man" style="width: 100%; object-fit: cover;" >
             </div>
             
             <!-- <div class="leftDescription"> -->
                 
-                <div id="leftDescription" class="row-xl-6">
+                <div id="leftDescription">
                     <h2>It doesn't hurt to keep practicing</h2>
                     <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                     <strong><p>Emanuel, Sr Strategist at Hiring.com</p></strong>
                 </div>
-            </div>
+        </div>
             
             <!-- Second right-->
-            <div class="right">
-                <div id="rightPic" class="col">
-                    <div id="pic1" class="row">
+            <div id="right" class="col-5">
+                <!-- the first row -->
+                <div id="rightPic" class="row">
+                    <div id="pic1" class="col-4">
                         <img src="./image/information-orientation.jpg" alt="shadow" style="width: 100%; object-fit: cover;" >
                     </div>
-
-                    <div id="rightDescription1" class="row">
-                        <!-- <div class="rightDescription1"> -->
-                        <h4>Orientation date</h4>
-                        <h5>Tue 10/11 & Wed 10/12: 8am-3pm</h5>
+                    <div id="rightDescription1" class="col-8">
+                        <strong><h4>Orientation date</h4></strong>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
                         <a>Read more</a>
                     </div>
                 </div>
-            <div class="rightDescription2">
-                <h4>Our campus</h4>
-                <h5>Find which campus is close by you</h5>
-                <a>Read more</a>
-            </div>
-            <div class="rightDescription3">
-                <h4>Our guest lecture</h4>
-                <h5>Join a keynote with Oliver Sack about music in nedical treatment</h5>
-                <a>Read more</a>
+                <!-- the second row -->
+                <div id="rightPic" class="row">
+                    <div id="pic1" class="col-4">
+                        <img src="./image/information-campus.jpg" alt="light" style="width: 100%" >
+                    </div>
+                    <div id="rightDescription1" class="col-xl-8">
+                        <h4>Our campus</h4>
+                        <p>Find which campus is close by you</p>
+                        <a>Read more</a>
+                    </div>
+                </div>
+                <!-- the third row -->
+                <div id="rightPic" class="row" style="background-color: rgb(209, 209, 209);">
+                    <div id="pic1" class="col-4">
+                        <img src="./image/information-guest-lecture.jpg" alt="oldMan" style="width: 100%" >
+                    </div>
+                    <div id="rightDescription1" class="col-8">
+                        <h4>Our guest lecture</h4>
+                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <a>Read more</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- Start Learning -->
+    <div id="learningMobileText" >
+        <h1 style="font-weight: bold;">Start Learning</h1>
+    </div>
+    <div id="learningMobileText">
+        <p>Software engineering</p>
+    </div>
+    <div id="learningMobileText">
+        <p>Computer art</p>
+    </div>
+    <div id="learningMobileText">
+        <p>Design</p>
+    </div>
+    <div id="learningMobileText">
+        <p>Data</p>
+    </div>
+    <div id="learningMobileText">
+        <p>Business</p>
+    </div>
+    <div id="learningMobileText">
+        <p>Marketing</p>
+    </div>
+
+    <div id="learning" class="row">
+        <div id=text>
+            <h1 style="font-weight: bold;">Start Learning</h1>
+        </div>
+            <!-- Top -->
+            <div id="top" class="row">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./image/course-software.jpg" alt="computer">
+                    <div class="card-body">
+                      <h5 class="card-title">Software engineering</h5>
+                      <p class="card-text">COURSES</p>
+                      <p>Web Development, Mobile Development, iOT, APls</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./image/course-computer-art.jpg" alt="iphone">
+                    <div class="card-body">
+                      <h5 class="card-title">Computer art</h5>
+                      <p class="card-text">COURSES</p>
+                      <p>Imaging &Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                    </div>
+                </div>  
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./image/course-design.jpg" alt="design">
+                    <div class="card-body">
+                      <h5 class="card-title">Design</h5>
+                      <p class="card-text">COURSES</p>
+                      <p>User Experience Design, User Research, Visual Design</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom -->
+            <div id="bottom" class="row">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./image/course-data.jpg" alt="data">
+                    <div class="card-body">
+                      <h5 class="card-title">Data</h5>
+                      <p class="card-text">COURSES</p>
+                      <p>Data Science, Big Data, SQL, Data Visualization</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./image/course-business.jpg" alt="business">
+                    <div class="card-body">
+                      <h5 class="card-title">Business</h5>
+                      <p class="card-text">COURSES</p>
+                      <p>Produuct Development, Business Development, Startup</p>
+                    </div>
+                </div>  
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./image/course-marketing.jpg" alt="marketing">
+                    <div class="card-body">
+                      <h5 class="card-title">Marketing</h5>
+                      <p class="card-text">COURSES</p>
+                      <p>Analytics, Content Marketing, Mobile Marketing</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- thesis exhibits -->
+
+    <div id="learningMobileText" >
+        <h1 style="font-weight: bold;">Thesis exhibits</h1>
+    </div>
+
+    <div>
+        <video id="mobileVideo" style="width: 100%; object-fit: cover;" controls></video>
+        <source src="./image/thesis.mp4" type="video/mp4">
+        <source src="./image/thesis.ogg" type="video/ogg">
+        </video>
+    </div>
+    
+        <div id="exhibit" class="row">
+            <div id="text">
+                <h1 style="font-weight: bold;">Thesis exhibits</h1>
+            </div>
+            <div id="left" class="col-7">
+                <video id="leftVideo" class="row" style="width: 100%; object-fit: cover;" controls>
+                    <source src="./image/thesis.mp4" type="video/mp4">
+                    <source src="./image/thesis.ogg" type="video/ogg">
+                </video>
+                <div id="leftVideoText" class="row">
+                    <h5 style="font-weight: bold;">Reimagine urban</h5>
+                    <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam ett commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                </div>
+            </div>
+
+            <div id="right" class="col-5">
+                <div id="rightrRow" class="row" style="background-color: rgb(209, 209, 209);">
+                    <div id="rightPic" class="col-4">
+                        <img src="./image/thesis-fisma.jpg" alt="fisma" style="width: 100%; object-fit: cover;">
+                    </div>
+                    <div id="rightText" class="col-8">
+                        <h4>Fisma: Design and Prototype</h4>
+                        <p>Designer showcase of new protoype product</p>
+                    </div> 
+                </div>
+
+                <div id="rightrRow" class="row">
+                    <div id="rightPic" class="col-4">
+                        <img src="./image/thesis-now-and-then.jpg" alt="fisma" style="width: 100%; object-fit: cover;">
+                    </div>
+                    <div id="rightText" class="col-8">
+                        <h4>Now and then</h4>
+                        <p>Research study about New York</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    
+
+    <div id="mobileFooter">
+        <p>© 2016 Colmar Academy. All rights reserved</p>
+    </div>
+
+    <footer id="footer" class="row">
+        <p class="col-10">© 2016 Colmar Academy. All rights reserved</p>
+        <p id="right" class="col-2">Terms Privacy</p>
+    </footer>
+
 
 
 </body>

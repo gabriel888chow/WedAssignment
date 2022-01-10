@@ -1,69 +1,57 @@
 *{
     font-family: 'Poppins', sans-serif;
+    color: rgb(105, 105, 105);
 }
 
 body {
-    margin: 0%;
+    /* margin: 0%; */
+    width: 100%;
 }
 
 header {
-    background-color: #ffffff;
+    /* margin-left: calc(-.5 * var(--bs-gutter-x)); */
+    /* margin-right: 0; */
     height: 64px;
     width: 100%;
-    /* position: .5rem 3.75rem; */
     display: flex;
+    /* position: fixed;
+    z-index: 1; */
     align-items: center;
-    padding-right: 16px;
-    /* border: 1px solid red; */
+    padding-left: 24px;
+    background-color: #ffffff;
+    /* border: 1px solid blue; */
 }
 
-.header-left {
-    display: flex;
-    align-items: center;
-    height: 64px;
-    padding: 0px 0px 0px 24px;
-    border: 1px solid blue;
-
+#mobile {
+    display: none;
 }
 
-/* .test{
-    float: right;
-} */
-
-.header-right{
-    flex: 1;
-    flex-wrap: wrap;
-    flex-direction:row;
-    padding-right: 24px;
-}
-
-/* li{
-    text-align: left;
-    border: 1px solid rgb(0, 4, 255);
-    left: auto!important;
-} */
-.ulRight{
-    text-align: right;
-    width: 95%;
-    border: 1px solid yellow;
+#header-right {
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding-left: 170px;
+    /* border: 1px solid blue; */
     
 }
 
-nav li {
-    text-decoration: none;
+li {
+    /* text-decoration: none; */
     align-items: center;
     display: inline-block;
     margin-left: 8px;
-    text-align: right;
-    border: 1px solid green;
+    /* text-align: right; */
+    /* border: 1px solid green; */
     
 }
 
-/* .logo {
-    border: 1px solid green;
-} */
+
+.logo {
+    height: 42px;
+    /* border: 1px solid green; */
+}
 
 .bold {
+    /* align-items: center; */
     font-weight: bold;
     font-size: 25px;
     /* border: 1px solid green; */
@@ -71,68 +59,43 @@ nav li {
 
 .light {
     font-size: 25px;
-    font-weight: lighter;
+    color: rgb(190, 190, 190);
+    /* font-weigh; */
 }
 
 
-/* Cover */
+/* First */
 
-.cover{
-    /* position: relative; */
-    /* height: 500px; */
+#first{
     width: 100%;
     display: flex;
-    /* border: 1px solid green; */
     background-color: rgb(209, 209, 209);
+    /* border: 1px solid green; */
     
 }
 
-.cover .leftPic{
+#first #leftPic{
     display: flex;
-    /* height: 436px; */
     overflow: hidden;
-    width: 60%;
+    padding-right: 0px;
     padding: 32px 24px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
-/* .cover .rightDescription {
-    width: 600px;
-    padding-left: 24px;
-    text-align: center;
-    border: 1px solid yellow;
+#first #rightDescription{
+    margin: auto 0;
+}
+
+/* #first #rightDescription button{
+    top: 10px;
 } */
 
-.cover .rightDescription button{
-    /* width: 600px; */
-    /* padding-left: 24px; */
-    text-align: center;
-    /* border: 1px solid red; */
+#first #rightDescription h5 {
+    padding-bottom: 30px;
 }
 
 
-.cover .rightDescription h1 {
-    width: 300px;
-    font-size: 2rem;
-    line-height: 2rem;
-    text-align: start;
-    padding-top: 100px;
-    /* border: 1px solid green; */
-    color: rgb(80, 80, 80);
-    
-}
-
-.cover h2 {
-    width: 400px;
-    text-align: start;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
-    color: rgb(80, 80, 80);
-    /* border: 1px solid green; */
-    
-}
-
-.cover button {
+#first button {
     color: white;
     font-size: 20px;
     text-align: center;
@@ -147,63 +110,365 @@ nav li {
 #second{
     /* position: relative; */
     /* height: 650px; */
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     /* border: 5px solid rgb(255, 220, 20); */
+    margin: 0px;
     background-color: rgb(255, 255, 255);
 }
-#leftPic {
+
+#second #left{
+    /* margin-right: 0px; */
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#second #leftPic {
+    margin: 0px;
     display: flex;
     overflow: hidden;
-    width: 60%;
+    /* width: 60%; */
     padding: 32px 24px;
     /* height: 530px; */
     /* max-width: 100%; */
     /* border: 1px solid red; */
-    
 }
 
-#leftDescription{
+#second #leftDescription{
     padding: 0px 24px;
     /* border: 1px solid blue; */
 }
 
-#leftDescription h2{
+#second #leftDescription h2{
     font-weight:bold;
 }
 
-
-
 /* second right */
-.second .right {
-    width: 40%;
-    border: 2px solid green;
-    
+
+#mobilePic {
+    display: none;
 }
 
-#rightPic{
-    /* margin: 0; */
-    width: 100%;
-    border: 2px solid red;
-    
+#mobileText {
+    display: none;
 }
 
-#rightDescription1{
-    /* text-align: center; */
+#second #right{
+    padding: 16px;
+    border-left: 1px solid rgb(209, 209, 209);
+    /* border: 2px solid yellow; */
+}
+
+#second #rightDescription1{
+    padding: 20px;
+    font-size: 15px;
     display: inline-block;
-    width: 65%;
+    /* width: 65%; */
     /* top: 20%; */
-    border: 1px solid green;
+    /* border: 1px solid green; */
+}
+
+#second #rightDescription1 h4{
+    font-weight: bold;
     
 }
 
-#pic1 {
+#second #pic1 {
     /* flex-grow: 1; */
     /* border-right: 10px; */
     display: inline-block;
+    overflow: hidden;
+    /* width: 35%; */
+    padding: 16px;
+    /* border: 1px solid red; */ 
+}
+
+#learningMobileText h1 {
+    display: none;
+}
+
+#learningMobileText p {
+    display: none;
+}
+
+#learning {
+    margin-right: 0px;
+    /* text-align: center; */
+    /* border: 1px solid blue; */
+    background-color: rgb(209, 209, 209);
+    
+}
+
+#text {
+    padding: 32px 0px;
+    text-align: center;
+    margin-right: 0px;
+    /* border: 1px solid green; */
+    
+}
+
+.card{
+    margin: 0px 16px;
+    text-align: left;
+    padding: 0px;
+    /* border: 1px solid blue; */
+    border: 0;
+    border-radius: 0;
+}
+
+.card-img-top{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card-title{
+    font-weight: bold;
+    width: 100%;
+    /* border: 1px solid blue; */
+    
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    padding: 0px 72px;
+    padding-bottom: 16px;
+    /* border: 1px solid red; */
+    /* margin: 0px; */
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+    padding: 0px 72px;
+    padding-bottom: 32px;
+    /* border: 1px solid red; */
+    /* margin: 0px; */
+}
+
+
+/* thesis exhibit */
+
+#mobileVideo {
+    display: none;
+}
+
+#leftVideo{
+    width: 60%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+#leftVideoText {
+    padding: 24px;
+}
+
+#leftVideo {
+    padding: 24px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+#exhibit #rightPic{
+    /* display: inline-block; */
+    display: flex;
     overflow: cover;
-    width: 35%;
-    padding: 32px 24px;
-    border: 1px solid red;
+    padding: 16px;
+    margin: 0px;
+    display: inline-block;
+    /* width: 35%; */
+    /* border: 1px solid yellow; */
+}
+
+#exhibit #right #rightText{
+    display: inline-block;
+    justify-content: center;
+    margin: auto 0;
+    /* border: 1px solid green; */
+    
+}
+
+#exhibit #left{
+    padding: 0;
+    /* border: 1px solid green; */
+    
+}
+
+#exhibit #right{
+    margin: 0px; 
+    /* border: 1px solid red; */
+}
+
+#exhibit #right h4{
+    font-weight: bold;
+}
+
+#mobileFooter {
+    display: none;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    padding-left: 24px;
+    border-top: 1px solid rgb(209, 209, 209);
+}
+
+footer p{
+    display: flex;
+    margin: 0px;
+    padding-top: 16px;
+}
+
+footer #right{
+    display: flex;
+    padding-left: 92px;
+}
+
+#first.row, #top.row, #bottom.row, #exhibit.row, #footer.row {
+    margin: 0px;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    #header-left {
+        display: none;
+    }
+    
+    #header-right {
+        display: none;
+    }
+
+    #mobile {
+        /* height: 64px; */
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+        /* width: 100%; */
+    }
+
+    .mobileLogo {
+        width: auto;
+    }
+
+    #first #leftPic {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #first #rightDescription {
+        width: 100%;
+        padding: 32px 16px ;
+    }
+
+    #first #rightDescription h1{
+        padding-bottom: 32px;
+    }
+
+    #first #rightDescription h5{
+        padding-bottom: 24px;
+    }
+    
+    #second #left {
+        display: none;
+    }
+    
+    #second #right {
+        display: none;
+    }
+    
+    #mobilePic {
+        display: flex;
+        overflow: hidden;
+        padding: 16px;
+        margin: 0px;
+    }
+
+    #mobileText {
+        display: flex;
+        padding: 16px 32px;
+        margin: 0px;
+    }
+
+    #mobileText p {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+
+    #mobileText a {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+
+    #mobileText h3 {
+        font-weight: bold;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+
+    #learning #top {
+        display: none;
+    }
+
+    #learning #bottom {
+        display: none;
+    }
+
+    #learning #text {
+        display: none;
+    }
+
+    #learningMobileText h1 {
+        display: block;
+        padding: 32px 0px;
+        text-align: center;
+        margin-right: 0px;
+        /* border: 1px solid green; */
+        
+    }
+
+    #learningMobileText p {
+        display: flex;
+        font-size: 25px;
+        margin: 0px 16px;
+        margin-bottom: 8px;
+        padding: 16px;
+        background-color: rgb(209, 209, 209);
+    }
+
+    #exhibit {
+        display: none;   
+    }
+
+    #mobileVideo {
+        display: flex;
+        padding: 0px;
+    }
+
+    #mobileFooter {
+        display: flex;
+        padding: 16px;
+    }
+
+    #mobileFooter p{
+        margin: 0;
+    }
+
+    #footer{
+        display: none;
+    }
+
+    /* footer{
+        display: none;
+    } */
+
+    /* why 只係id (#footer) 先可隱藏 用footer 唔可以 */
+    
+
+
 
 }

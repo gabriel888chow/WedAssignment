@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Downloads\\find-your-hat-starting\\starting"
+		},
+		{
+			"path": "..\\..\\git_repos\\Find-Your-Hat"
+		},
+		{
+			"path": "..\\..\\git_repos\\find-your-hat-starting"
+		},
+		{
+			"path": "..\\..\\git_repos\\test"
+		},
+		{
+			"path": "..\\..\\git_repos\\Chore-Door"
+		},
+		{
+			"path": "..\\..\\myPortfolio"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ReactProject"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Colmar_Academy"
+	}
+}
